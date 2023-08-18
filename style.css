@@ -1,0 +1,253 @@
+﻿/* In your styles.css file */
+
+body {
+    margin: 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+    letter-spacing: 2px;
+    scroll-behavior: smooth;
+}
+
+.container {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/* Sticky Navbar Styles */
+.sticky-navbar {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.logo {
+    margin-right: 20px;
+}
+
+.title {
+    flex-grow: 1;
+}
+
+    .title a {
+        text-decoration: none;
+        color: #333;
+        font-size: 18px; /* Adjust the font size as needed */
+        font-weight: bold;
+    }
+
+    .title h1 {
+        margin: 0;
+    }
+
+.menu-options {
+    list-style: none;
+    display: flex;
+    margin: 0; /* Reset default margin */
+}
+
+    .menu-options li {
+        margin: 0 15px;
+    }
+
+    .menu-options a {
+        text-decoration: none;
+        color: #333;
+    }
+
+.section {
+    margin-bottom: 100px; /* Adjust the value as needed */
+}
+
+/* Section Styles */
+.about-section, .contact-section, .lost-section{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    justify-content: space-between;
+}
+
+.about-content, .contact-content, .lost-content {
+    flex: 1;
+    padding-right: 20px;
+}
+    .about-content h1, .lost-content h1 {
+        margin-bottom: 10px;
+    }
+    .about-content h1, .about-content p, .contact-content h1, .contact-content p, .lost-content h1, .lost-content p {
+        font-weight: 400;
+    }
+
+.about-image, .contact-image, .lost-image, .process-video {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 60px;
+}
+
+    .about-image img, .contact-image img, .lost-image img, .process-video video {
+        max-width: 100%; /* Ensure image fits within the container */
+        max-height: 100%;
+    }
+
+/* Projects Section Styles */
+.projects-section {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+    .projects-section h2 {
+        font-weight: 600;
+    }
+
+
+/* Footer Styles */
+.footer {
+    text-align: center;
+    background-color: #f5f5f5;
+    padding: 20px 0;
+}
+
+/* ... Previous styles ... */
+
+.art-section {
+    /* ... Your other styles ... */
+    text-align: center; /* Center-align content */
+}
+
+.art-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.art-image {
+    flex: 0 0 calc(33.33% - 20px); /* Three images per row with spacing */
+    margin: 10px; /* Add spacing between images */
+}
+
+    .art-image img {
+        max-width: 100%;
+        height: auto;
+    }
+
+/* ... Other styles ... */
+
+/* ... Previous styles ... */
+
+.see-more {
+    text-align: center;
+    margin-top: 20px;
+}
+
+    .see-more a {
+        text-decoration: none;
+        background-color: transparent; /* Transparent background */
+        color: #333;
+        padding: 10px 20px;
+        border: 2px solid #ddd; /* Light border */
+        border-radius: 5px;
+        transition: border-color 0.3s, color 0.3s;
+    }
+
+        .see-more a:hover {
+            border-color: #aaa; /* Darken border on hover */
+            color: #555; /* Darken text color on hover */
+        }
+
+/* ... Other styles ... */
+
+.contact-content a {
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Set text color */
+}
+
+    .contact-content a:hover {
+        text-decoration: underline; /* Add underline on hover */
+        color: #555; /* Darken text color on hover */
+    }
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+    .social-icons a {
+        display: inline-block;
+        margin-right: 15px;
+    }
+
+    .social-icons img {
+        width: 30px;
+        height: auto;
+    }
+
+
+/* idividual art page*/
+/* ... Previous styles ... */
+
+.artwork-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+.art-details {
+    flex: 1;
+}
+
+
+.art-process {
+    margin-top: 30px;
+    padding: 20px;
+}
+
+/* ... Other styles ... */
+
+/* In your style.css */
+
+.lost-process {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.process-content {
+    flex: 1;
+    text-align: left;
+}
+
+.process-video {
+    flex: 1;
+    text-align: right;
+}
+
+/* Adjust margins and padding as needed */
+.process-content h2 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.process-content p {
+    margin-top: 10px;
+}
+
+.lost-process h2 {
+    /* ... Your other styles ... */
+    text-align: center; /* Center-align content */
+}
+/* ... Other styles ... */
+
+
