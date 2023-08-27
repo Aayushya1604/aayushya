@@ -251,4 +251,52 @@ nav .logo img {
 }
 /* ... Other styles ... */
 
+/* Your existing styles here */
+
+.artworks-section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.artworks-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; /* Adjust spacing between images */
+    justify-items: center;
+}
+
+.artwork img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.older-works {
+
+    margin: 0 20px;
+}
+
+.art-class {
+    padding: 40px 0;
+    text-align: center;
+}
+
+/* Your existing styles here */
+
+.embedded-slide-section {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.section-content {
+    max-width: 800px;
+    margin: 0 auto 20px; /* Center and add spacing at the bottom */
+    text-align: center;
+}
+
+.embedded-slide-container {
+    margin: 0 auto; /* Center the container horizontally */
+    width: 800px;
+}
+
 
