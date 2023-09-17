@@ -300,3 +300,20 @@ nav .logo img {
 }
 
 
+/* Your existing styles here */
+
+.art-section {
+    text-align: center; /* Center the content */
+    margin-bottom: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center; /* Center images horizontally */
+    gap: 20px; /* Add spacing between images */
+}
+
+.art-image img {
+    max-width: 100%; /* Ensure images don't exceed their container width */
+}
+
