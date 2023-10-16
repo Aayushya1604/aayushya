@@ -84,7 +84,7 @@ nav .logo img {
         font-weight: 400;
     }
 
-.about-image, .contact-image, .lost-image, .process-video {
+.about-image, .contact-image, .lost-image, .process-video, .process-image{
     flex: 1;
     display: flex;
     justify-content: flex-end;
@@ -92,7 +92,7 @@ nav .logo img {
     padding: 50px;
 }
 
-    .about-image img, .contact-image img, .lost-image img, .process-video video {
+    .about-image img, .contact-image img, .lost-image img, .process-image img, .process-video video {
         max-width: 100%; /* Ensure image fits within the container */
         max-height: 100%;
     }
@@ -234,6 +234,11 @@ nav .logo img {
     text-align: right;
 }
 
+.process-image {
+    flex: 1;
+    text-align: right;
+}
+
 /* Adjust margins and padding as needed */
 .process-content h2 {
     font-size: 24px;
@@ -302,7 +307,7 @@ nav .logo img {
 
 /* Your existing styles here */
 
-.art-section {
+.art-section, .oldwebsite-section {
     text-align: center; /* Center the content */
     margin-bottom: 150px;
     
@@ -348,3 +353,55 @@ nav .logo img {
     margin-top: 10px; /* Add margin to separate the image from the paragraph */
 }
 
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    overflow: hidden;
+    float: right;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .column img {
+    width: 50%; /* Adjust the width of the images */
+}
+
+.oldwebsite-video {
+    width: 600px; /* Set the width of the video container */
+    height: 337.5px; 
+}
+
+.oldwebsite-video video {
+    width: 100%; /* Set the width of the video to fill its container */
+    height: 100%; /* Set the height of the video to fill its container */
+}
+
+
+.oldwebsite-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.oldwebsite-video {
+    width: 800; /* Set the width of the video container */
+    height: 450px; /* Set the height of the video container */
+    margin: 0 auto; /* Center the video container horizontally */
+}
+
+.oldwebsite-video video {
+    width: 100%; /* Set the width of the video to fill its container */
+    height: 100%; /* Set the height of the video to fill its container */
+}
+
+.video-container {
+    display: flex;
+}
+
+video {
+    margin: 10px;
+}
