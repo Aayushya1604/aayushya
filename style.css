@@ -96,6 +96,10 @@ nav .logo img {
         max-width: 100%; /* Ensure image fits within the container */
         max-height: 100%;
     }
+    .process-video video {
+        max-width: 80%; /* Ensure image fits within the container */
+        max-height: 100%;
+    }
 
 /* Projects Section Styles */
 .projects-section {
@@ -398,10 +402,15 @@ nav .logo img {
     height: 100%; /* Set the height of the video to fill its container */
 }
 
+
 .video-container {
     display: flex;
+    font-size: 0;
 }
 
-video {
-    margin: 10px;
+.video-container > video {
+    margin: 0;
+    padding: 0;
+    width: 800px; /* Adjust the width as needed */
+    height: 450px; /* Adjust the height as needed */
 }
