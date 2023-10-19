@@ -414,3 +414,7 @@ nav .logo img {
     width: 800px; /* Adjust the width as needed */
     height: 450px; /* Adjust the height as needed */
 }
+
+.art-image {
+    cursor: pointer;
+}
